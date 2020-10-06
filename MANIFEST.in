@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include boilerplate_v10 *.css
+recursive-include boilerplate_v10 *.csv
+recursive-include boilerplate_v10 *.html
+recursive-include boilerplate_v10 *.ico
+recursive-include boilerplate_v10 *.js
+recursive-include boilerplate_v10 *.json
+recursive-include boilerplate_v10 *.md
+recursive-include boilerplate_v10 *.png
+recursive-include boilerplate_v10 *.py
+recursive-include boilerplate_v10 *.svg
+recursive-include boilerplate_v10 *.txt
+recursive-exclude boilerplate_v10 *.pyc
